@@ -8,7 +8,7 @@ Projede geliştiricinin ufkunu genişletmek amacıyla farklı teknolojiler kulla
 
 ## Gereksinimler
 
-Ortam değişkenleri `example.env` dosyasında tanımlanmıştır. İhtiyaç duyulan bu değişkenler arasında Google Maps verileri içinde arama yapabilmek için bir `API Key`, Twitter verilerini kullanabilmek için `Authorization Token` ve kullanıcı loglarını kaydetmek için `mongoDB` bağlantı değişkenleri bulunmaktadır.
+Ortam değişkenleri `example.env` dosyasında tanımlanmıştır, `.env` olarak değiştirilerek değişkenler doldurulmalıdır. İhtiyaç duyulan bu değişkenler arasında Google Maps verileri içinde arama yapabilmek için bir `API Key`, Twitter verilerini kullanabilmek için `Authorization Token` ve kullanıcı loglarını kaydetmek için `mongoDB` bağlantı değişkenleri bulunmaktadır.
 
 ## Yükleme
 

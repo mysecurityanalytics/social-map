@@ -8,7 +8,7 @@ Different technologies is used in the project to broaden the horizons of the dev
 
 ## Requirements
 
-Environment variables are defined in the `example.env` file. An `API Key` to search Google Maps data, `Authorization Token` to use Twitter data and `mongoDB` connection properties to keep user logs needs to be specified.
+Environment variables are defined in the `example.env` file, after changing the file as `.env`, variables should be filled. An `API Key` to search Google Maps data, `Authorization Token` to use Twitter data and `mongoDB` connection properties to keep user logs needs to be specified.
 
 ## Install
 
