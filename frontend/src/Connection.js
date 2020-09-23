@@ -2,7 +2,7 @@ import Axios from 'axios';
 
 function postRectangularCoordinates(coordinates) {
     return new Promise(resolve => {
-        Axios.post('http://backend/rectangular_coordinates', {
+        Axios.post('http://backend:5000/rectangular_coordinates', {
             coordinates: coordinates
         }).then(res => {
             console.log(res)
@@ -16,7 +16,7 @@ function postCircularCoordinates(point, radius) {
         var sourceType = localStorage.getItem('sourceType');
         var queryParam = localStorage.getItem('queryParam');
         console.log(sourceType)
-        Axios.post('http://backend/circular_coordinates', {
+        Axios.post('http://backend:5000/circular_coordinates', {
             sourceType: sourceType,
             queryParam: queryParam,
             point: point,
@@ -29,7 +29,7 @@ function postCircularCoordinates(point, radius) {
 
 function postPolygonCoordinates(coordinates) {
     return new Promise(resolve => {
-        Axios.post('http://backend/polygon_coordinates', {
+        Axios.post('http://backend:5000/polygon_coordinates', {
             coordinates: coordinates
         }).then(res => {
             console.log(res)
