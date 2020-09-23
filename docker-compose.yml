@@ -17,7 +17,7 @@ services:
   backend:
     container_name: backend
     build:
-      context: ./frontend
+      context: ./backend
       dockerfile: Dockerfile
     env_file:
       - .env

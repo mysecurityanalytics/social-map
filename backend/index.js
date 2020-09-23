@@ -3,7 +3,7 @@ const getCircularPlace = require('./circularPlace')
 const getCircularTweet = require('./circularTweet');
 
 app = express(),
-  port = process.env.PORT || 5000,
+  port = 5000,
   cors = require("cors");
 
 app.use(cors());
