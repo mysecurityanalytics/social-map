@@ -5,7 +5,7 @@ var request_log;
 
 const twitterConfig = {
     baseUrl: 'https://api.twitter.com/1.1/search/tweets.json?',
-    authorization: '' //TODO: changeIt
+    authorization: process.env.TWITTER_AUTH
 };
 
 axios.interceptors.request.use(

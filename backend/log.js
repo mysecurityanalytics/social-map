@@ -1,11 +1,11 @@
 //TODO: changeIt
 var mongoConfig = {
-    host: "localhost",
-    port: "27017",
-    dbName: "SOCIALMAP",
-    username: "<USERNAME>",
-    password: "<PASSWORD>",
-    collection: "socialMapLogs"
+    host: process.env.MONGO_HOST,
+    port: process.env.MONGO_PORT,
+    dbName: process.env.MONGO_DB,
+    username: process.env.MONGO_USER,
+    password: process.env.MONGO_PASS,
+    collection: process.env.MONGO_COLLECTION,
 }
 
 var MongoClient = require('mongodb').MongoClient;

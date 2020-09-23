@@ -5,7 +5,7 @@ var request_log;
 
 const googleConfig = {
   baseUrl: 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?',
-  apiKey: '' //TODO: changeIt
+  apiKey: process.env.GOOGLE_MAPS_API_KEY
 }
 
 axios.interceptors.request.use(
