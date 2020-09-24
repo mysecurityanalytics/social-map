@@ -13,3 +13,14 @@ Environment variables are defined in the `example.env` file, after changing the 
 ## Install
 
 Download project codes, specify the environment variables mentioned above and open project folder and then type `docker-compose up -d`. Afterwards, the application can be accessed from `locahost:8080`.
+
+# Screenshots
+
+## Main Screen
+<center><img src="screenshots/main.png" width="500"></center>
+
+## Google Maps
+<center><img src="screenshots/google.png" width="1500"></center>
+
+## Twitter
+<center><img src="screenshots/tweet.png" width="1500"></center>

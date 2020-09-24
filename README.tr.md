@@ -13,3 +13,14 @@ Ortam değişkenleri `example.env` dosyasında tanımlanmıştır, `.env` olarak
 ## Yükleme
 
 Proje kodlarını indirdikten ve yukarıda bahsedilen ortam değişkenlerini girdikten sonra ilgili dosyanın içine girilip `docker-compose up -d` komutunu çalıştırmak yeterlidir. Sonrasında `locahost:8080` adresinden uygulamaya erişilebilir.
+
+# Ekran Görüntüleri
+
+## Ana Ekran
+<center><img src="screenshots/main.png" width="500"></center>
+
+## Google Maps
+<center><img src="screenshots/google.png" width="1500"></center>
+
+## Twitter
+<center><img src="screenshots/tweet.png" width="1500"></center>
