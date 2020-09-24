@@ -1,10 +1,10 @@
 //TODO: changeIt
 var mongoConfig = {
-    host: process.env.MONGO_HOST,
-    port: process.env.MONGO_PORT,
-    dbName: process.env.MONGO_DB,
-    username: process.env.MONGO_USER,
-    password: process.env.MONGO_PASS,
+    host: process.env.MONGO_HOST || "mongodb",
+    port: process.env.MONGO_PORT || "27017",
+    dbName: process.env.MONGO_INITDB_DATABASE,
+    username: process.env.MONGO_INITDB_ROOT_USERNAME,
+    password: process.env.MONGO_INITDB_ROOT_PASSWORD,
     collection: process.env.MONGO_COLLECTION,
 }
 
